@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         lifecycleScope.launchWhenResumed {
-            delay(40001)
+            delay(40011)
             Intercom.client().displayMessenger()
         }
     }
